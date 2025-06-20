@@ -228,7 +228,7 @@ const Fileupload = () => {
     }
     catch(error){
       if (error.message === "No password given") {
-        toast.error("Unprotected PDFs are allowed")
+        toast.error("Unprotected PDFs are not allowed")
       }
       else{
         toast.error("Unexpected error "+error)
