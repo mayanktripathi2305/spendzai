@@ -10,7 +10,7 @@ app.use(fileUpload({
     useTempFiles : true,
     tempFileDir : '/tmp/'
 }));
-const allowedOrigins = ["https://spendzai.vercel.app"]; 
+const allowedOrigins = ["https://app.spendzai.com"]; 
 
 app.use(cors({
     origin: function (origin, callback) {
