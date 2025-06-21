@@ -7,8 +7,8 @@ import Spinner from "../Components/Spinner"
 import {useNavigate} from "react-router-dom"
 import supabase from "../Utils/Supabase";
 import { BsFilePdf } from "react-icons/bs";
-const BASE_URL = "http://localhost:4000/"
-const MAX_UPLOADS_PER_DAY = 4;
+const BASE_URL = "https://spendzai.onrender.com/"
+const MAX_UPLOADS_PER_DAY = 3;
 
 const Fileupload = () => {
 
